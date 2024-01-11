@@ -48,7 +48,7 @@ const Home = () => {
                 <p>Loading user details...</p>
             ) : user ? (
                 <div className="user-details">
-                    {/* <p>Welcome back, {user.name}!</p> */}
+                    <p>Welcome back, {user.name}!</p>
                     <p>You are a {user.role}</p>
                     <Link to='/dashboard' className="btn btn-primary m-2">Dashboard</Link>
                     <button onClick={handleLogout} className="btn btn-danger m-2">Logout</button>
